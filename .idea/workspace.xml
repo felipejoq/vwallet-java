@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aef6e814-f780-48d2-991b-41a86462b541" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleAlkeWallet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/dtos/LoginDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/dtos/RegisterDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/interfaces/IAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/auth/service/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/accounts/interfaces/IBankAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/accounts/models/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bank/accounts/services/BankAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/menus/GuestMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/menus/LoggedMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/users/services/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/utils/strings/StringUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/interfaces/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/users/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/strings/StringUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2fsJ75Ot1SqeqwHfuDwwfDokoqY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.All in SimpleAlkeWallet (1).executor": "Coverage",
+    "JUnit.All in SimpleAlkeWallet (2).executor": "Run",
+    "JUnit.All in SimpleAlkeWallet (3).executor": "Coverage",
+    "JUnit.All in SimpleAlkeWallet (4).executor": "Coverage",
+    "JUnit.All in SimpleAlkeWallet.executor": "Coverage",
+    "JUnit.StringUtilsTest.executor": "Run",
+    "JUnit.StringUtilsTest.testGetRandomString.executor": "Run",
+    "JUnit.UserServiceImplTest.testGetUserById.executor": "Run",
+    "JUnit.UserServiceImplTest.testGetUsers.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.22624433",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.All in SimpleAlkeWallet (2)">
+    <configuration name="All in SimpleAlkeWallet (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleAlkeWallet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in SimpleAlkeWallet (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleAlkeWallet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in SimpleAlkeWallet" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="SimpleAlkeWallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="false" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in SimpleAlkeWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleAlkeWallet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleAlkeWallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.users.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.users.services" />
+      <option name="MAIN_CLASS_NAME" value="tests.users.services.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.testGetUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleAlkeWallet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.users.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.users.services" />
+      <option name="MAIN_CLASS_NAME" value="tests.users.services.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetUsers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in SimpleAlkeWallet (2)" />
+        <item itemvalue="JUnit.All in SimpleAlkeWallet (1)" />
+        <item itemvalue="JUnit.UserServiceImplTest.testGetUserById" />
+        <item itemvalue="JUnit.All in SimpleAlkeWallet" />
+        <item itemvalue="JUnit.UserServiceImplTest.testGetUsers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aef6e814-f780-48d2-991b-41a86462b541" name="Changes" comment="" />
+      <created>1714583681887</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714583681887</updated>
+      <workItem from="1714583683171" duration="13631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__4_.ic" NAME="All in SimpleAlkeWallet (4) Coverage Results" MODIFIED="1714597536248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__1_.ic" NAME="All in SimpleAlkeWallet (1) Coverage Results" MODIFIED="1714597894333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__2_.ic" NAME="All in SimpleAlkeWallet (2) Coverage Results" MODIFIED="1714596375676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet.ic" NAME="All in SimpleAlkeWallet Coverage Results" MODIFIED="1714597772931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__3_.ic" NAME="All in SimpleAlkeWallet (3) Coverage Results" MODIFIED="1714597475152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

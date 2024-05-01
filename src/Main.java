@@ -1,4 +1,4 @@
-import controllers.MainController;
+import com.uncodigo.controllers.MainController;
 
 public class Main {
     public static void main(String[] args) {

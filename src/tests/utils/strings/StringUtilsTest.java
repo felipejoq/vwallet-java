@@ -1,7 +1,7 @@
 package tests.utils.strings;
 
 import org.junit.jupiter.api.Test;
-import utils.strings.StringUtils;
+import com.uncodigo.strings.StringUtils;
 
 public class StringUtilsTest {
 

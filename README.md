@@ -3,6 +3,14 @@
 Simple VWallet es un proyecto escrito con Java para ejercitar conceptos relacionados con la programación orientada a objetos,
 tests unitarios, interacción con el usuario y todo esto a través de la consola.
 
+### Info de pruebas
+Hay dos usuarios de prueba que se generan al iniciar la aplicación:
+
+- Usuario: `jane@test.com` con contraseña: `123123` rol: usuario vip.
+- Usuario: `john@test.com` con contraseña: `123123` rol: usuario normal.
+
+Ambos cuentan con saldo 0.0 y no tienen movimientos.
+
 ## 📝 Funcionalidades implementadas
 
 - Crear una cuenta
@@ -25,7 +33,8 @@ tests unitarios, interacción con el usuario y todo esto a través de la consola
 
 ## ▶️ Ejecución
 
-Para ejecutar el proyecto, se debe clonar el repositorio y abrirlo en IntelliJ IDEA o cualquier IDE que soporte Java y la configuración de IntelliJ IDEA.
+Para ejecutar el proyecto, se debe clonar el repositorio y abrirlo en IntelliJ IDEA o cualquier IDE que soporte Java y
+la configuración de IntelliJ IDEA.
 
 ## ℹ️ Diagrama de clases
 Se adjunta el diagrama de clases en formato PNG a continuación, pero puede ser consultado en formato PDF en el archivo

@@ -20,9 +20,10 @@ public class LoggedMenuController {
         int option = 0;
         int STEP_TO = -1;
         do {
-            System.out.println("Bienvenido(a) a la VWallet");
+            System.out.println("----------------- *** Menú VWallet *** -----------------");
             System.out.println("Usuario: " + authService.getUserLoggedIn().getName());
             System.out.println("Su saldo es: " + authService.getUserLoggedIn().getBankAccount().getBalance() + " (" + authService.getUserLoggedIn().getBankAccount().getCurrency().getCurrencyCode() + ")");
+            System.out.println("------------------------ *** ------------------------");
             System.out.println("1. Logout");
             System.out.println("2. Ver saldo");
             System.out.println("3. Depositar");
@@ -32,6 +33,8 @@ public class LoggedMenuController {
             System.out.println("7. Terminar la aplicación");
             System.out.print("Ingrese una opción: ");
             option = scanner.nextInt();
+            System.out.println("-----------------------------------------------------------");
+            System.out.println();
             switch (option) {
                 case 1:
                     System.out.println("Hasta luego " + authService.getUserLoggedIn().getName());
@@ -43,8 +46,16 @@ public class LoggedMenuController {
                     System.out.println("Saldo: " + authService.getUserLoggedIn().getBankAccount().getBalance());
                     break;
                 case 3:
+                    System.out.println("----------------- *** Depositar *** -----------------");
                     System.out.print("Ingrese el monto a depositar: ");
-                    double amountDeposit = scanner.nextDouble();
+                    double amountDeposit;
+                    try {
+                        amountDeposit = scanner.nextDouble();
+                    } catch (Exception e) {
+                        System.out.println("Monto no válido");
+                        scanner = new Scanner(System.in);
+                        break;
+                    }
                     BankAccount bankAccount = authService.getUserLoggedIn().getBankAccount();
                     boolean resultDeposit = bankAccountService.deposit(bankAccount.getAccountNumber(), amountDeposit);
                     if (resultDeposit) {
@@ -53,10 +64,19 @@ public class LoggedMenuController {
                     } else {
                         System.out.println("No se pudo realizar el depósito");
                     }
+                    System.out.println("----------------- *** --------- *** -----------------");
                     break;
                 case 4:
+                    System.out.println("----------------- *** Retirar *** -----------------");
                     System.out.print("Ingrese el monto a retirar: ");
-                    double amountWithdraw = scanner.nextDouble();
+                    double amountWithdraw;
+                    try {
+                        amountWithdraw = scanner.nextDouble();
+                    } catch (Exception e) {
+                        System.out.println("Monto no válido");
+                        scanner = new Scanner(System.in);
+                        break;
+                    }
                     BankAccount bankAccount1 = authService.getUserLoggedIn().getBankAccount();
                     try {
                         boolean resultWithdraw = bankAccountService.withdraw(bankAccount1.getAccountNumber(), amountWithdraw);
@@ -69,11 +89,17 @@ public class LoggedMenuController {
                     } catch (Exception e) {
                         System.out.println(e.getMessage());
                     }
+                    System.out.println("----------------- *** --------- *** -----------------");
+                    System.out.println();
                     break;
                 case 5:
+                    System.out.println("----------------- *** Transferir *** -----------------");
+                    System.out.println("*** Escriba exit para cancelar la transferencia");
                     System.out.print("Ingrese el email del destinatario: ");
                     String email = scanner.next();
-
+                    if (email.equals("exit")) {
+                        break;
+                    }
                     BankAccount bankAccountFrom = authService.getUserLoggedIn().getBankAccount();
                     BankAccount bankAccountTo = userService.getUserByEmail(email).getBankAccount();
                     if (bankAccountTo == null) {
@@ -81,7 +107,14 @@ public class LoggedMenuController {
                         break;
                     }
                     System.out.print("Ingrese el monto a transferir: ");
-                    double amountTransfer = scanner.nextDouble();
+                    double amountTransfer;
+                    try {
+                        amountTransfer = scanner.nextDouble();
+                    } catch (Exception e) {
+                        System.out.println("Monto no válido");
+                        scanner = new Scanner(System.in);
+                        break;
+                    }
                     boolean resultTransfer = bankAccountService.transfer(bankAccountFrom.getAccountNumber(), bankAccountTo.getAccountNumber(), amountTransfer);
 
                     if (resultTransfer) {
@@ -90,10 +123,11 @@ public class LoggedMenuController {
                     } else {
                         System.out.println("No se pudo realizar la transferencia");
                     }
-
+                    System.out.println("----------------- *** --------- *** -----------------");
+                    System.out.println();
                     break;
                 case 6:
-                    System.out.println("Sus transacciones");
+                    System.out.println("----------------- *** Transacciones *** -----------------");
                     BankAccount bankAccountTransactions = authService.getUserLoggedIn().getBankAccount();
                     System.out.println("Fecha \t\t\t\t| Tipo \t\t| Monto");
                     System.out.println("--------------------------------------------");
@@ -101,12 +135,16 @@ public class LoggedMenuController {
                         SimpleDateFormat dateTransaction = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
                         System.out.println(dateTransaction.format(transaction.getTimestamp()) + " | " + transaction.getType().getValue() + " \t| " + transaction.getAmount());
                     });
-                    System.out.println("--------------------------------------------");
+                    System.out.println("----------------- *** --------- *** -----------------");
+                    System.out.println();
                     break;
                 case 7:
                     STEP_TO = 0;
                 default:
+                    System.out.println("---------------------- *** ---------------------");
                     System.out.println("Opción no válida");
+                    System.out.println("---------------------- *** ---------------------");
+                    System.out.println();
                     break;
             }
         } while (option != 7);

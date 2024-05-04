@@ -39,13 +39,13 @@ la configuración de IntelliJ IDEA.
 ## ℹ️ Diagrama de clases
 Se adjuntan diagrama de clases global y de dependencias.
 
-- Diagrama de clases global [Diagrama aquí](diagrama_clases.pdf)
-- Diagrama de clases con dependencias [Diagrama aquí](diagrama_clases_dependecias.pdf)
+- Diagrama de clases global [Diagrama aquí](docs/diagrama_clases.pdf)
+- Diagrama de clases con dependencias [Diagrama aquí](docs/diagrama_clases_dependecias.pdf)
 
 ### Diagrama de clases:
 
-![Diagrama de clases](diagrama_clases.png)
+![Diagrama de clases](docs/diagrama_clases.png)
 
 ### Diagrama de clases con dependencias:
 
-![Diagrama de clases con dependencias](diagrama_clases_dependencias.png)
+![Diagrama de clases con dependencias](docs/diagrama_clases_dependencias.png)

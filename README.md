@@ -37,7 +37,15 @@ Para ejecutar el proyecto, se debe clonar el repositorio y abrirlo en IntelliJ I
 la configuración de IntelliJ IDEA.
 
 ## ℹ️ Diagrama de clases
-Se adjunta el diagrama de clases en formato PNG a continuación, pero puede ser consultado en formato PDF en el archivo
-[diagrama_clases_pdf.pdf](diagrama_clases.pdf).
+Se adjuntan diagrama de clases global y de dependencias.
 
-![Diagrama de clases en PDF](diagrama_clases.png)
+- Diagrama de clases global [Diagrama aquí](diagrama_clases.pdf)
+- Diagrama de clases con dependencias [Diagrama aquí](diagrama_clases_dependecias.pdf)
+
+### Diagrama de clases:
+
+![Diagrama de clases](diagrama_clases.png)
+
+### Diagrama de clases con dependencias:
+
+![Diagrama de clases con dependencias](diagrama_clases_dependencias.png)

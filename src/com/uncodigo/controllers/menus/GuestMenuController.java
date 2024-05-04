@@ -11,41 +11,52 @@ public class GuestMenuController {
             IAuthService authService
     ) {
         Scanner scanner = new Scanner(System.in);
-        int option = 0;
+        int option;
+        int STEP_TO = 0;
         do {
+            System.out.println("--------------------------------------------");
+            System.out.println("Menú de usuario invitado");
             System.out.println("1. Login");
             System.out.println("2. Register");
-            System.out.println("1000. Salir");
+            System.out.println("6. Salir");
             System.out.print("Ingrese una opción: ");
             option = scanner.nextInt();
+            System.out.println();
             switch (option) {
                 case 1:
+                    System.out.println("--------------------------------------------");
+                    System.out.println("Iniciando proceso de login");
                     System.out.print("Ingrese su email: ");
                     String email = scanner.next();
                     System.out.print("Ingrese su contraseña: ");
                     String password = scanner.next();
                     LoginDto loginDto = new LoginDto(email, password);
                     boolean resultLogin = authService.login(loginDto);
+                    System.out.println();
                     if (resultLogin) {
-                        System.out.println("Bienvenido " + authService.getUserLoggedIn().getName());
-                        option = 1000;
+                        System.out.println("--------------------------------------------");
+                        System.out.println("Bienvenido(a) " + authService.getUserLoggedIn().getName());
+                        STEP_TO = 2;
+                        option = 6;
                     } else {
                         System.out.println("Email o contraseña incorrectos");
                     }
                     break;
                 case 2:
+                    System.out.println();
+                    System.out.println("--------------------------------------------");
                     System.out.println("Registro de usuario (Escriba exist para cancelar el registro)");
-                    System.out.print("Ingrese su nombre: ");
+                    System.out.print("-> Ingrese su nombre: ");
                     String name = scanner.next();
                     if (name.equals("exist")) {
                         break;
                     }
-                    System.out.print("Ingrese su email: ");
+                    System.out.print("-> Ingrese su email: ");
                     String emailRegister = scanner.next();
                     if (emailRegister.equals("exist")) {
                         break;
                     }
-                    System.out.print("Ingrese su contraseña: ");
+                    System.out.print("-> Ingrese su contraseña: ");
                     String passwordRegister = scanner.next();
                     if (passwordRegister.equals("exist")) {
                         break;
@@ -54,18 +65,25 @@ public class GuestMenuController {
                     boolean resultRegister = authService.register(registerDto);
                     if (resultRegister) {
                         System.out.println("Usuario registrado con éxito");
-                        option = 1000;
+                        STEP_TO = 2;
+                        option = 6;
                     } else {
                         System.out.println("No se pudo registrar el usuario");
                     }
                     break;
-                case 1000:
+                case 6:
+                    STEP_TO = 0;
                     break;
                 default:
-                    System.out.println("Opción no válida");
+                    System.out.println("x Opción no válida");
                     break;
             }
-        } while (option != 1000);
-        return option;
+
+            if(STEP_TO == 2) {
+                break;
+            }
+
+        } while (option != 6);
+        return STEP_TO;
     }
 }

@@ -1,7 +1,11 @@
 package com.uncodigo.accounts.services;
 
 import com.uncodigo.accounts.interfaces.IBankAccountService;
-import com.uncodigo.accounts.models.BankAccount;
+import com.uncodigo.accounts.models.*;
+import com.uncodigo.accounts.models.transactions.Deposit;
+import com.uncodigo.accounts.models.transactions.Transaction;
+import com.uncodigo.accounts.models.transactions.Transfer;
+import com.uncodigo.accounts.models.transactions.Withdraw;
 import com.uncodigo.users.models.User;
 
 import java.util.ArrayList;
@@ -41,6 +45,8 @@ public class BankAccountServiceImpl implements IBankAccountService {
         BankAccount account = this.getAccount(accountNumber);
         if (account != null) {
             account.setBalance(account.getBalance() + amount);
+            Transaction depositTransaction = new Deposit(account, amount);
+            account.addTransaction(depositTransaction);
             return true;
         }
         return false;
@@ -53,6 +59,8 @@ public class BankAccountServiceImpl implements IBankAccountService {
             double balance = account.getBalance();
             if (balance >= amount) {
                 account.setBalance(balance - amount);
+                Transaction withdrawTransaction = new Withdraw(account, amount);
+                account.addTransaction(withdrawTransaction);
                 return true;
             } else {
                 throw new IllegalArgumentException("Insufficient balance");
@@ -70,6 +78,7 @@ public class BankAccountServiceImpl implements IBankAccountService {
             if (balance >= amount) {
                 fromAccount.setBalance(balance - amount);
                 toAccount.setBalance(toAccount.getBalance() + amount);
+                Transaction transferTransaction = new Transfer(fromAccount, toAccount, amount);
                 return true;
             } else {
                 throw new IllegalArgumentException("Insufficient balance");

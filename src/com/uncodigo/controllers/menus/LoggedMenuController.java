@@ -5,6 +5,8 @@ import com.uncodigo.accounts.interfaces.IBankAccountService;
 import com.uncodigo.accounts.models.BankAccount;
 import com.uncodigo.users.interfaces.IUserService;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class LoggedMenuController {
@@ -16,6 +18,7 @@ public class LoggedMenuController {
     ) {
         Scanner scanner = new Scanner(System.in);
         int option = 0;
+        int STEP_TO = -1;
         do {
             System.out.println("Bienvenido(a) a la VWallet");
             System.out.println("Usuario: " + authService.getUserLoggedIn().getName());
@@ -25,13 +28,16 @@ public class LoggedMenuController {
             System.out.println("3. Depositar");
             System.out.println("4. Retirar");
             System.out.println("5. Transferir");
-            System.out.println("6. Terminar la aplicación");
+            System.out.println("6. Ver transacciones");
+            System.out.println("7. Terminar la aplicación");
             System.out.print("Ingrese una opción: ");
             option = scanner.nextInt();
             switch (option) {
                 case 1:
                     System.out.println("Hasta luego " + authService.getUserLoggedIn().getName());
                     authService.logout();
+                    STEP_TO = 1;
+                    option = 7;
                     break;
                 case 2:
                     System.out.println("Saldo: " + authService.getUserLoggedIn().getBankAccount().getBalance());
@@ -87,13 +93,24 @@ public class LoggedMenuController {
 
                     break;
                 case 6:
+                    System.out.println("Sus transacciones");
+                    BankAccount bankAccountTransactions = authService.getUserLoggedIn().getBankAccount();
+                    System.out.println("Fecha \t\t\t\t| Tipo \t\t| Monto");
+                    System.out.println("--------------------------------------------");
+                    bankAccountTransactions.getTransactions().forEach(transaction -> {
+                        SimpleDateFormat dateTransaction = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+                        System.out.println(dateTransaction.format(transaction.getTimestamp()) + " | " + transaction.getType().getValue() + " \t| " + transaction.getAmount());
+                    });
+                    System.out.println("--------------------------------------------");
                     break;
+                case 7:
+                    STEP_TO = 0;
                 default:
                     System.out.println("Opción no válida");
                     break;
             }
-        } while (option != 6 && authService.isLoggedIn());
-        return option;
+        } while (option != 7);
+        return STEP_TO;
     }
 
 }

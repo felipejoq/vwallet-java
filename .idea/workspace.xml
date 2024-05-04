@@ -5,33 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aef6e814-f780-48d2-991b-41a86462b541" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/auth/services/AuthServicesImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/bank/accounts/services/BankAccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/enums/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/transactions/Deposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/transactions/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/transactions/Transfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/transactions/Withdraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleAlkeWallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAlkeWallet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleVWallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVWallet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/dtos/LoginDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/auth/dtos/LoginDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/dtos/RegisterDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/auth/dtos/RegisterDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/interfaces/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/auth/interfaces/IAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/service/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/auth/service/AuthServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/accounts/interfaces/IBankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/interfaces/IBankAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/accounts/models/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/accounts/services/BankAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/services/BankAccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/menus/GuestMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/menus/LoggedMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/LoggedMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/users/services/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/users/services/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/utils/strings/StringUtilsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/utils/strings/StringUtilsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/interfaces/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/users/interfaces/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/users/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/users/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/users/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/strings/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/strings/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/accounts/interfaces/IBankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/interfaces/IBankAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/accounts/services/BankAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/services/BankAccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/auth/interfaces/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/auth/interfaces/IAuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/LoggedMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/LoggedMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/strings/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/strings/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/users/interfaces/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/users/interfaces/IUserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -52,9 +46,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2fsJ75Ot1SqeqwHfuDwwfDokoqY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -71,12 +68,21 @@
     "JUnit.All in SimpleAlkeWallet (4).executor": "Coverage",
     "JUnit.All in SimpleAlkeWallet (5).executor": "Coverage",
     "JUnit.All in SimpleAlkeWallet.executor": "Coverage",
+    "JUnit.All in SimpleVWallet (1).executor": "Coverage",
+    "JUnit.All in SimpleVWallet (2).executor": "Coverage",
+    "JUnit.All in SimpleVWallet (3).executor": "Coverage",
+    "JUnit.All in SimpleVWallet.executor": "Coverage",
     "JUnit.AuthServicesImplTest.executor": "Run",
     "JUnit.AuthServicesImplTest.loginShouldReturnTrueWhenUserExists.executor": "Run",
     "JUnit.AuthServicesImplTest.testRegister.executor": "Run",
     "JUnit.BankAccountServiceTest.testCreateAccount.executor": "Run",
     "JUnit.BankAccountServiceTest.testGetAccount.executor": "Run",
     "JUnit.BankAccountServiceTest.testTransfer.executor": "Run",
+    "JUnit.MainControllerTest.executor": "Debug",
+    "JUnit.MainControllerTest.testStart.executor": "Debug",
+    "JUnit.MainTest.executor": "Run",
+    "JUnit.MainTest.testMain.executor": "Run",
+    "JUnit.MainTest.testMainStartsMainController.executor": "Debug",
     "JUnit.StringUtilsTest.executor": "Run",
     "JUnit.StringUtilsTest.testGetRandomString.executor": "Run",
     "JUnit.UserServiceImplTest.testCreateUser.executor": "Run",
@@ -86,9 +92,9 @@
     "JUnit.UserServiceImplTest.testGetUsers.executor": "Run",
     "JUnit.UserServiceImplTest.testUpdateUser.executor": "Run",
     "JUnit.tests in SimpleAlkeWallet.executor": "Coverage",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -105,27 +111,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in SimpleVWallet">
-    <configuration name="All in SimpleAlkeWallet (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SimpleVWallet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in SimpleAlkeWallet (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimpleVWallet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in SimpleAlkeWallet (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimpleVWallet" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,40 +144,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tests in SimpleAlkeWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleVWallet" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="controllers" />
+      <option name="MAIN_CLASS_NAME" value="controllers.MainControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleVWallet" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="MainTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimpleVWallet" />
-      <option name="filePath" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in SimpleVWallet" />
-        <item itemvalue="JUnit.All in SimpleAlkeWallet (2)" />
-        <item itemvalue="JUnit.All in SimpleAlkeWallet (5)" />
-        <item itemvalue="JUnit.All in SimpleAlkeWallet (1)" />
-        <item itemvalue="JUnit.tests in SimpleAlkeWallet" />
+        <item itemvalue="JUnit.MainTest" />
+        <item itemvalue="JUnit.MainTest.testMain" />
+        <item itemvalue="JUnit.MainControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -200,28 +190,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714583681887</updated>
-      <workItem from="1714583683171" duration="17972000" />
+      <workItem from="1714583683171" duration="19882000" />
+      <workItem from="1714690373403" duration="537000" />
+      <workItem from="1714691010920" duration="2111000" />
+      <workItem from="1714792170241" duration="12928000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SimpleAlkeWallet$UserServiceImplTest_testGetRoleUser.ic" NAME="UserServiceImplTest.testGetRoleUser Coverage Results" MODIFIED="1714598775357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.users.services.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__5_.ic" NAME="All in SimpleAlkeWallet (5) Coverage Results" MODIFIED="1714602537156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__4_.ic" NAME="All in SimpleAlkeWallet (4) Coverage Results" MODIFIED="1714601566075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__1_.ic" NAME="All in SimpleAlkeWallet (1) Coverage Results" MODIFIED="1714601699307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet.ic" NAME="All in SimpleAlkeWallet Coverage Results" MODIFIED="1714601260916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__2_.ic" NAME="All in SimpleAlkeWallet (2) Coverage Results" MODIFIED="1714601380231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SimpleAlkeWallet$tests_in_SimpleAlkeWallet.ic" NAME="tests in SimpleAlkeWallet Coverage Results" MODIFIED="1714601662757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__3_.ic" NAME="All in SimpleAlkeWallet (3) Coverage Results" MODIFIED="1714601484947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleVWallet.ic" NAME="All in SimpleVWallet Coverage Results" MODIFIED="1714837178266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleVWallet__2_.ic" NAME="All in SimpleVWallet (2) Coverage Results" MODIFIED="1714691142641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__5_.ic" NAME="All in SimpleAlkeWallet (5) Coverage Results" MODIFIED="1714602537156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet.ic" NAME="All in SimpleAlkeWallet Coverage Results" MODIFIED="1714601260916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__2_.ic" NAME="All in SimpleAlkeWallet (2) Coverage Results" MODIFIED="1714602569717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/SimpleAlkeWallet$UserServiceImplTest_testGetBankAccountUser.ic" NAME="UserServiceImplTest.testGetBankAccountUser Coverage Results" MODIFIED="1714598831103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tests.users.services.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleAlkeWallet__3_.ic" NAME="All in SimpleAlkeWallet (3) Coverage Results" MODIFIED="1714601484947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleVWallet__1_.ic" NAME="All in SimpleVWallet (1) Coverage Results" MODIFIED="1714603054113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/SimpleAlkeWallet$All_in_SimpleVWallet__3_.ic" NAME="All in SimpleVWallet (3) Coverage Results" MODIFIED="1714792459192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

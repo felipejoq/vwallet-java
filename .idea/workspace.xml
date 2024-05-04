@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef6e814-f780-48d2-991b-41a86462b541" name="Changes" comment="Mueve archivos de documentación a carpeta docs">
+    <list default="true" id="aef6e814-f780-48d2-991b-41a86462b541" name="Changes" comment="Control de algunos errores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/LoggedMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/LoggedMenuController.java" afterDir="false" />
@@ -185,7 +185,7 @@
       <workItem from="1714690373403" duration="537000" />
       <workItem from="1714691010920" duration="2111000" />
       <workItem from="1714792170241" duration="16091000" />
-      <workItem from="1714841337417" duration="1513000" />
+      <workItem from="1714841337417" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="Agrega transacciones, comentarios para documentación">
       <option name="closed" value="true" />
@@ -227,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714841097979</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Control de algunos errores">
+      <option name="closed" value="true" />
+      <created>1714842925335</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714842925335</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,18 +247,8 @@
     <MESSAGE value="Modifica archivo README.md" />
     <MESSAGE value="Actualiza archivo README.md" />
     <MESSAGE value="Mueve archivos de documentación a carpeta docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mueve archivos de documentación a carpeta docs" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Control de algunos errores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Control de algunos errores" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SimpleAlkeWallet$UserServiceImplTest_testGetRoleUser.ic" NAME="UserServiceImplTest.testGetRoleUser Coverage Results" MODIFIED="1714598775357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

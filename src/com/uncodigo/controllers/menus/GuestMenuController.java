@@ -22,7 +22,10 @@ public class GuestMenuController {
             try {
                 option = scanner.nextInt();
             } catch (Exception e) {
+                System.out.println("---------------------- *** ---------------------");
                 System.out.println("Opción no válida");
+                System.out.println("---------------------- *** ---------------------");
+                System.out.println();
                 scanner = new Scanner(System.in);
                 continue;
             }

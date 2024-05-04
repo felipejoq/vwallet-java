@@ -32,7 +32,16 @@ public class LoggedMenuController {
             System.out.println("6. Ver transacciones");
             System.out.println("7. Terminar la aplicación");
             System.out.print("Ingrese una opción: ");
-            option = scanner.nextInt();
+            try {
+                option = scanner.nextInt();
+            } catch (Exception e) {
+                System.out.println("---------------------- *** ---------------------");
+                System.out.println("Opción no válida");
+                System.out.println("---------------------- *** ---------------------");
+                System.out.println();
+                scanner = new Scanner(System.in);
+                continue;
+            }
             System.out.println("-----------------------------------------------------------");
             System.out.println();
             switch (option) {

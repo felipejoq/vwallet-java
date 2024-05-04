@@ -157,6 +157,8 @@ public class LoggedMenuController {
                     break;
             }
         } while (option != 7);
+
+        scanner.close();
         return STEP_TO;
     }
 

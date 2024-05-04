@@ -23,9 +23,10 @@ public class MainController {
 
     /**
      * Main controller constructor
+     *
      * @param bankAccountService Bank account service
-     * @param userService User service
-     * @param authService Auth service
+     * @param userService        User service
+     * @param authService        Auth service
      */
     public MainController(IBankAccountService bankAccountService, IUserService userService, IAuthService authService) {
         this.bankAccountService = bankAccountService;
@@ -35,6 +36,7 @@ public class MainController {
 
     /**
      * Start method
+     *
      * @param stepTo Step to. Default is 1 (Guest menu), 2 (Logged menu).
      */
     public void start(int stepTo) {
@@ -54,5 +56,7 @@ public class MainController {
                 }
             }
         } while (STEP_TO != 0);
+
+        System.out.println("------------------ *** Hasta la próxima! *** ------------------");
     }
 }

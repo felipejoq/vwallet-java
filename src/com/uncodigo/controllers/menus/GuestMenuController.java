@@ -104,6 +104,8 @@ public class GuestMenuController {
             }
 
         } while (option != 6);
+
+        scanner.close();
         return STEP_TO;
     }
 }

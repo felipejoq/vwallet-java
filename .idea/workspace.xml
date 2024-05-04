@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef6e814-f780-48d2-991b-41a86462b541" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/enums/TransactionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/transactions/Deposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/transactions/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/transactions/Transfer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/transactions/Withdraw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" beforeDir="false" />
+    <list default="true" id="aef6e814-f780-48d2-991b-41a86462b541" name="Changes" comment="Agrega transacciones, comentarios para documentación">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrama_clases.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagrama_clases.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleVWallet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleVWallet.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/accounts/interfaces/IBankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/interfaces/IBankAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/models/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/accounts/services/BankAccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/accounts/services/BankAccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/auth/interfaces/IAuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/auth/interfaces/IAuthService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/GuestMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/LoggedMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/controllers/menus/LoggedMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/strings/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/strings/StringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/uncodigo/users/interfaces/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/uncodigo/users/interfaces/IUserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +33,9 @@
   <component name="KubernetesApiProvider"><![CDATA[{
   "isMigrated": true
 }]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -193,12 +180,25 @@
       <workItem from="1714583683171" duration="19882000" />
       <workItem from="1714690373403" duration="537000" />
       <workItem from="1714691010920" duration="2111000" />
-      <workItem from="1714792170241" duration="12928000" />
+      <workItem from="1714792170241" duration="14588000" />
     </task>
+    <task id="LOCAL-00001" summary="Agrega transacciones, comentarios para documentación">
+      <option name="closed" value="true" />
+      <created>1714838028554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714838028554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Agrega transacciones, comentarios para documentación" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agrega transacciones, comentarios para documentación" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
